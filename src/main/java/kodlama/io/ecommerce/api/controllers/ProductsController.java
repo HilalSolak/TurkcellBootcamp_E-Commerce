@@ -19,13 +19,10 @@ public class ProductsController {
         return service.getAll();
     }
     @GetMapping("/{id}")
-    public Product getById(int id){
+    public Product getById(@PathVariable int id){
         return service.getById(id);
     }
-    @GetMapping("/")
-    public Product getTest(@RequestParam int id){
-        return service.getById(id);
-    }
+  
     @PostMapping
     public Product add(@RequestBody Product product){
         return service.add(product);
