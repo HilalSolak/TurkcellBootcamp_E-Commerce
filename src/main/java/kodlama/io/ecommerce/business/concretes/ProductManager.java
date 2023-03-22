@@ -48,7 +48,7 @@ public class ProductManager implements ProductService {
     private void checkIfQuantityValid(Product product){
         if(product.getQuantity()<0) throw new IllegalArgumentException("Quantity cannot be less than or equal to zero");
     }
-    private static void checkIfDescriptionLengthValid(Product product) {
+    private void checkIfDescriptionLengthValid(Product product) {
         if (product.getDescription().length()<10 || product.getDescription().length()>50) throw new IllegalArgumentException("Description length must be between 10 and 50 characters. ");
     }
     private void validateProduct(Product product){
