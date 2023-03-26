@@ -17,5 +17,3 @@ Req 6 : Ürünlerin description(açıklama) alanı min 10 karakter max 50 karakt
 
 ---- (Validation paketini kullanmadan, kod yazarak algoritmik çözünüz) ----
 
-![image](https://user-images.githubusercontent.com/56636066/227767780-d5a41ce8-9932-4d1d-9463-8276a1924365.png)
-
