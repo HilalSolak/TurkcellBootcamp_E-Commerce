@@ -16,5 +16,9 @@ Req 5 : Ürünlerin quantity(miktarı) 0 dan küçük olamaz.
 Req 6 : Ürünlerin description(açıklama) alanı min 10 karakter max 50 karakter olmalıdır.
 
 ---- (Validation paketini kullanmadan, kod yazarak algoritmik çözünüz) ----
+![image](https://user-images.githubusercontent.com/56636066/227772775-ea42e164-ac1d-4e26-a7b5-1809d5efc7b3.png)
+
 
 ![swagger](https://user-images.githubusercontent.com/56636066/227768141-a9ff273a-ba98-4fd9-b37c-d62852cb02c2.png)
+![image](https://user-images.githubusercontent.com/56636066/227772908-2d119155-225f-4924-baee-01fa915daef2.png)
+
